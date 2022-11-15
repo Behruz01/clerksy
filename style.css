@@ -1,0 +1,413 @@
+@font-face {
+  font-family: Noto Sans;
+  src: url(./fonts/NotoSans-Medium.ttf);
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: Recoleta;
+  src: url(./fonts/Recoleta-RegularDEMO.otf);
+}
+* {
+  margin: 0 auto;
+  padding: 0 auto;
+  box-sizing: border-box;
+}
+body {
+  background: #e5e5e5;
+}
+
+.container-nav {
+  width: 1440px;
+  background: #163a24;
+  border-radius: 0px;
+  padding-top: 21px;
+  padding-left: 130px;
+  padding-right: 140px;
+
+  display: flex;
+  align-items: center;
+}
+.str-h1::before {
+  content: url(./images/clerkcs-logo.svg);
+}
+ul {
+  list-style-type: none;
+}
+.ul-nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.paragraf {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #fbfaf7;
+}
+.btn-1 {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+
+  text-align: right;
+
+  color: #fbfaf7;
+
+  background: #198c36;
+  border-radius: 160px;
+  border: none;
+
+  padding: 15px 25px;
+}
+.container-main {
+  width: 1440px;
+  background: #163a24;
+  border-radius: 0px;
+  padding-top: 21px;
+  padding-left: 130px;
+  padding-right: 140px;
+
+  display: flex;
+}
+.white-p {
+  font-family: "Recoleta";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 65px;
+
+  color: #fbfaf7;
+
+  width: 391px;
+}
+.small-p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+
+  color: #fbfaf7;
+
+  width: 391px;
+  margin-top: 18px;
+  margin-bottom: 129px;
+}
+.div-p {
+  margin-top: 120px;
+}
+.sec-1 {
+  width: 1440px;
+  border-radius: 0px;
+  background: white;
+  padding: 120px 228px;
+}
+.sec-element1 {
+  display: flex;
+}
+.green {
+  color: #163a24;
+}
+.green-sml {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+
+  color: #163a24;
+}
+.div-p-gre {
+  margin-top: 141px;
+  padding-left: 99px;
+}
+.sec-ul {
+  display: flex;
+  align-items: center;
+  margin-top: 70px;
+}
+.section2 {
+  width: 1440px;
+  background: #163a24;
+  border-radius: 0px;
+
+  padding: 120px 228px;
+}
+.sec2-ul {
+  display: flex;
+  box-sizing: border-box;
+}
+.sec2-li {
+  width: 200px;
+  margin-right: 40px;
+  margin-top: 68px;
+}
+.sec2_img {
+  margin-bottom: 27px;
+  margin-left: 30px;
+}
+.section3 {
+  background: #f2efe6;
+  border-radius: 0px;
+  width: 1440px;
+
+  padding: 114px 137px;
+}
+.section4 {
+  background: white;
+  border-radius: 0px;
+  width: 1440px;
+
+  padding: 114px 137px;
+}
+.sec4-ul {
+  display: flex;
+  gap: 40px;
+}
+.sec4-element {
+  display: flex;
+}
+.section4-div {
+  margin-top: 160px;
+}
+.sec4-img {
+  margin-bottom: 115px;
+}
+.card-p {
+  font-family: "Recoleta";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 32px;
+
+  margin-left: 0px;
+  margin-top: 20px;
+}
+.sec4-li {
+  width: 353px;
+  padding-top: 50px;
+  padding-left: 40px;
+  padding-bottom: 66px;
+
+  background: #fbfaf7;
+  box-shadow: 5px 5px 20px #e9e4d5;
+  border-radius: 15px;
+}
+.card-small-ul {
+  list-style-type: circle;
+}
+.card-small-li {
+  margin-left: -6px;
+  margin-bottom: 15px;
+  margin-top: 23px;
+}
+.section5 {
+  background: #f2efe6;
+
+  border-radius: 0px;
+
+  width: 1440px;
+
+  padding: 114px 137px;
+}
+.sec5-ul {
+  display: flex;
+  position: relative;
+}
+.sec5-li {
+  text-align: center;
+}
+.one::after {
+  content: url(./images/Group.png);
+  position: absolute;
+  left: 370px;
+  top: 70px;
+}
+.two::after {
+  content: url(./images/right_sign2.svg);
+  position: absolute;
+  top: 70px;
+  left: 710px;
+}
+.three::after {
+  content: url(./images/circle.svg);
+  position: absolute;
+  top: -25px;
+  right: 45px;
+}
+.btn-1 {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #fbfaf7;
+
+  background: #198c36;
+  border-radius: 160px;
+
+  margin-top: 46px;
+  margin-left: 460px;
+}
+.section6 {
+  background: white;
+
+  border-radius: 0px;
+
+  width: 1440px;
+
+  padding: 114px 137px;
+
+  display: flex;
+}
+.sec6-div {
+  width: 360px;
+
+  margin-top: 142px;
+  margin-left: 91px;
+  margin-bottom: 152px;
+  margin-right: 164px;
+}
+.btn-2 {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #fbfaf7;
+
+  background: #198c36;
+  border-radius: 160px;
+  border: none;
+
+  padding: 15px 25px;
+}
+.sec6-img {
+  width: 492px;
+}
+.section7 {
+  background: #163a24;
+
+  border-radius: 0px;
+
+  width: 1440px;
+
+  padding: 0px 0px;
+
+  display: flex;
+}
+.btn-3 {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+
+  text-align: center;
+
+  color: #163a24;
+
+  background: #fab5a0;
+  border-radius: 160px;
+  border: none;
+
+  padding: 15px 25px;
+}
+.sec7-div {
+  width: 549px;
+  margin-top: 114px;
+}
+.section8 {
+  background: #f2efe6;
+
+  border-radius: 0px;
+
+  width: 1440px;
+
+  padding: 54px 130px;
+
+  display: flex;
+}
+.btn4 {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+
+  text-align: center;
+
+  color: #fbfaf7;
+
+  background: #15762e;
+  border-radius: 160px;
+
+  padding: 15px 25px;
+  border: none;
+}
+a {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+
+  text-decoration: none;
+
+  color: #198c36;
+}
+.sec8-div {
+  margin-right: 248px;
+}
+.section9 {
+  background: white;
+  border-radius: 0px;
+
+  width: 1440px;
+
+  padding: 54px 130px;
+}
+.foot-p {
+  font-family: "Recoleta";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+
+  text-align: center;
+
+  color: #163a24;
+}
+.foot-div1 {
+  display: flex;
+  align-items: center;
+}
+.for-icon-ul {
+  display: flex;
+  gap: 14px;
+}
+hr {
+  width: 1180px;
+  height: 1px;
+  background: #f2efe6;
+
+  margin-top: 43px;
+}
+.for-a-ul {
+  display: flex;
+  gap: 15px;
+}
+.foot-div2 {
+  display: flex;
+  align-items: center;
+}
